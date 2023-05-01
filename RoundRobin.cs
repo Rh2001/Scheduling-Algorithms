@@ -27,7 +27,7 @@
             processes.Add(new Process("P4", 2));
             processes.Add(new Process("P5", 10));
 
-            int quantum = 4; // Set the time quantum to 2
+            int quantum = 4; // Set the time quantum to 4
 
             RunRoundRobin(processes, quantum);
         }
